@@ -18,7 +18,7 @@ export const Home = () => {
           className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 cursor-pointer"
           onClick={() => {
             window.open(
-              'https://github.com/DanielXavierJob/studying-cards-nlw-copa',
+              'https://github.com/DanielXavierJob/portfolio-daniel-xavier',
             )
           }}
         >
