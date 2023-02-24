@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import TypeWriterEffect from 'react-typewriter-effect'
 
 const TypeWriter = ({ texts }) => {
-  console.log(texts)
   return (
     <TypeWriterEffect
       startDelay={2000}
