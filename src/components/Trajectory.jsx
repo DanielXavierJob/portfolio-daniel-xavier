@@ -23,7 +23,7 @@ const TrajectoryCard = ({ icon, title, content, index }) => (
   </div>
 )
 
-const Trajectory = () => (
+export const Trajectory = () => (
   <section id="how_did" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>How did I get here?</h2>
@@ -43,4 +43,3 @@ const Trajectory = () => (
   </section>
 )
 
-export default Trajectory

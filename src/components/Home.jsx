@@ -1,15 +1,11 @@
 import styles from '../style'
 import { discount, MyProfile } from '../assets'
-import GoGithub from './GoGithub'
+import { GoGithub } from './GoGithub'
 import { useState } from 'react'
-import TypeWriter from './TypeWriter'
+import { TypeWriter } from './TypeWriter'
 
-const Home = () => {
-  const [texts, setTexts] = useState([
-    'Developer',
-    'Designer',
-    'Teacher',
-  ])
+export const Home = () => {
+  const [texts, setTexts] = useState(['Developer', 'Designer', 'Teacher'])
   return (
     <section
       id="home"
@@ -18,9 +14,14 @@ const Home = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 cursor-pointer" onClick={() => {
-          window.open("https://github.com/DanielXavierJob/studying-cards-nlw-copa")
-        }}>
+        <div
+          className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 cursor-pointer"
+          onClick={() => {
+            window.open(
+              'https://github.com/DanielXavierJob/studying-cards-nlw-copa',
+            )
+          }}
+        >
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Show</span> me{' '}
@@ -70,5 +71,3 @@ const Home = () => {
     </section>
   )
 }
-
-export default Home

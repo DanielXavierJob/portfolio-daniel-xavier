@@ -1,9 +1,9 @@
 import styles from "../style";
 import { arrowUp } from "../assets";
-import ctxGithub from '../contexts/github-contexts'
+import {ctxGithub} from '../contexts/github-contexts'
 import { useContext } from "react";
 
-const GoGithub = () => {
+export const GoGithub = () => {
   const {html_url} = useContext(ctxGithub)
   return (
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`} onClick={() => {
@@ -24,5 +24,3 @@ const GoGithub = () => {
     </div>
   )
 };
-
-export default GoGithub;

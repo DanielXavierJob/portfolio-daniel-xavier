@@ -11,8 +11,8 @@ import {
   Home,
 } from './components'
 import {  useEffect, useState } from 'react'
-import ctxGithub from './contexts/github-contexts'
-const App = () => {
+import {ctxGithub} from './contexts/github-contexts'
+export const App = () => {
   const [githubStats, setGithubStats] = useState({})
   useEffect(() => {
     getUserStats('DanielXavierJob')
@@ -55,5 +55,3 @@ const App = () => {
     </ctxGithub.Provider>
   )
 }
-
-export default App

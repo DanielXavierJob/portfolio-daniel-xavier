@@ -1,8 +1,8 @@
 import { useContext} from 'react'
-import ctxGithub from '../contexts/github-contexts'
+import {ctxGithub} from '../contexts/github-contexts'
 import styles from '../style'
 
-const Stats = () => {
+export const Stats = () => {
   const ctx = useContext(ctxGithub)
   return (
     <section
@@ -36,4 +36,3 @@ const Stats = () => {
   )
 }
 
-export default Stats

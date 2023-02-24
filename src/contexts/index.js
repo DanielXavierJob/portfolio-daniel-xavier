@@ -1,4 +1,4 @@
-import githubContexts from "./github-contexts";
+import {githubContexts} from "./github-contexts";
 
 export {
   githubContexts

@@ -1,7 +1,7 @@
 import { MyProfile } from '../assets'
 import styles, { layout } from '../style'
 
-const AboutMe = () => (
+export const AboutMe = () => (
   <section id="about_me" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
@@ -31,5 +31,3 @@ const AboutMe = () => (
     </div>
   </section>
 )
-
-export default AboutMe

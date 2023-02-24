@@ -1,17 +1,15 @@
 import React, { useEffect } from 'react'
-import TypeWriterEffect from 'react-typewriter-effect'
+import { TypewriterUtil } from '../util/TypeWriterUtil';
 
-const TypeWriter = ({ texts }) => {
+export const TypeWriter = ({ texts }) => {
+  useEffect(() => {
+    const data = document ?? null;
+    if(data){
+      new TypewriterUtil({texts: texts, element: data.querySelector('.react-typewriter-text')}).start()
+    }
+  },[])
   return (
-    <TypeWriterEffect
-      startDelay={2000}
-      cursorColor="#3F3D56"
-      multiText={texts}
-      multiTextDelay={5000}
-      typeSpeed={30}
-      multiTextLoop={true}
-    />
+    <div className="react-typewriter-text"></div>
   )
 }
 
-export default TypeWriter

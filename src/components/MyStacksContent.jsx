@@ -1,7 +1,7 @@
 import { stacks } from '../constants'
 import styles from '../style'
 
-const MyStacksContent = () => (
+export const MyStacksContent = () => (
   <section className={`${styles.flexCenter} my-4`} id="stacks">
     <div className={`${styles.flexCenter} flex-wrap w-full`}>
       {stacks.sort((prev, next) => prev < next ? -1 : 1).map((item, index) => (
@@ -17,4 +17,3 @@ const MyStacksContent = () => (
   </section>
 )
 
-export default MyStacksContent
