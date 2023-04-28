@@ -1,10 +1,4 @@
-import {
-  instagram,
-  linkedin,
-  send,
-  shield,
-  star,
-} from "../assets";
+import { instagram, linkedin, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -25,8 +19,8 @@ export const navLinks = [
   },
   {
     id: "stacks",
-    title: "Stacks"
-  }
+    title: "Stacks",
+  },
 ];
 
 export const steps = [
@@ -54,25 +48,25 @@ export const steps = [
 ];
 
 export const certificates = [
-  'atendimento',
-  'csharpavancado',
-  'csharpbasico',
-  'eticanodesenvolvimento',
-  'fundamentosdaprogramacao',
-  'havard',
-  'hcode',
-  'htmlavancado',
-  'htmlbasico',
-  'htmlecss',
-  'joomla',
-  'lgpd',
-  'poo',
-  'uml',
-  'jira',
-  'poo-python',
-  'projeto-interface-python',
-  'python-basico'
-]
+  "atendimento",
+  "csharpavancado",
+  "csharpbasico",
+  "eticanodesenvolvimento",
+  "fundamentosdaprogramacao",
+  "havard",
+  "hcode",
+  "htmlavancado",
+  "htmlbasico",
+  "htmlecss",
+  "joomla",
+  "lgpd",
+  "poo",
+  "uml",
+  "jira",
+  "poo_python",
+  "projeto_interface_python",
+  "python_basico",
+];
 
 export const socialMedia = [
   {
@@ -88,31 +82,31 @@ export const socialMedia = [
 ];
 
 export const stacks = [
-  'html5',
-  'php',
-  'javascript',
-  'typescript',
-  'laravel',
-  'heroku',
-  'bootstrap',
-  'csharp',
-  'c',
-  'graphql',
-  'jquery',
-  'java',
-  'linux',
-  'mysql',
-  'postgresql',
-  'nest',
-  'next',
-  'python',
-  'xamarin',
-  'sequelize',
-  'apache',
-  'photoshop',
-  'firebase',
-  'docker',
-  'css',
-  'git',
-  'nodejs',
-]
+  "html5",
+  "php",
+  "javascript",
+  "typescript",
+  "laravel",
+  "heroku",
+  "bootstrap",
+  "csharp",
+  "c",
+  "graphql",
+  "jquery",
+  "java",
+  "linux",
+  "mysql",
+  "postgresql",
+  "nest",
+  "next",
+  "python",
+  "xamarin",
+  "sequelize",
+  "apache",
+  "photoshop",
+  "firebase",
+  "docker",
+  "css",
+  "git",
+  "nodejs",
+];

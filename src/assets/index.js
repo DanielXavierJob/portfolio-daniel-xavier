@@ -7,32 +7,28 @@ import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg"; 
- 
-
-
-
-
-
-
+import linkedin from "./linkedin.svg";
 
 //ceritificates
 
-import atendimento from './certificates/atendimento.jpg'
-import csharpavancado from './certificates/csharpavancado.jpg'
-import csharpbasico from './certificates/csharpbasico.jpg'
-import eticanodesenvolvimento from './certificates/eticanodesenvolvimento.jpg'
-import fundamentosdaprogramacao from './certificates/fundamentosdaprogramacao.jpg'
-import havard from './certificates/havard.jpg'
-import hcode from './certificates/hcode.jpg'
-import htmlavancado from './certificates/htmlavancado.jpg'
-import htmlbasico from './certificates/htmlbasico.jpg'
-import htmlecss from './certificates/htmlecss.jpg'
-import joomla from './certificates/joomla.jpg'
-import lgpd from './certificates/lgpd.jpg'
-import poo from './certificates/poo.jpg'
-import uml from './certificates/uml.jpg'
-
+import atendimento from "./certificates/atendimento.jpg";
+import csharpavancado from "./certificates/csharpavancado.jpg";
+import csharpbasico from "./certificates/csharpbasico.jpg";
+import eticanodesenvolvimento from "./certificates/eticanodesenvolvimento.jpg";
+import fundamentosdaprogramacao from "./certificates/fundamentosdaprogramacao.jpg";
+import havard from "./certificates/havard.jpg";
+import hcode from "./certificates/hcode.jpg";
+import htmlavancado from "./certificates/htmlavancado.jpg";
+import htmlbasico from "./certificates/htmlbasico.jpg";
+import htmlecss from "./certificates/htmlecss.jpg";
+import joomla from "./certificates/joomla.jpg";
+import lgpd from "./certificates/lgpd.jpg";
+import poo from "./certificates/poo.jpg";
+import uml from "./certificates/uml.jpg";
+import python_basico from "./certificates/python-basico.jpg";
+import poo_python from "./certificates/poo-python.jpg";
+import projeto_interface_python from "./certificates/projeto-interface-python.jpg";
+import jira from "./certificates/jira.jpg";
 
 export {
   //certificates
@@ -50,7 +46,10 @@ export {
   lgpd,
   poo,
   uml,
-
+  python_basico,
+  poo_python,
+  projeto_interface_python,
+  jira,
   MyProfile,
   instagram,
   linkedin,
