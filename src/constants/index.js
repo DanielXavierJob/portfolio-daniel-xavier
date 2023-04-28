@@ -68,6 +68,10 @@ export const certificates = [
   'lgpd',
   'poo',
   'uml',
+  'jira',
+  'poo-python',
+  'projeto-interface-python',
+  'python-basico'
 ]
 
 export const socialMedia = [
