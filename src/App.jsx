@@ -12,6 +12,7 @@ import {
 } from './components'
 import {  useEffect, useState } from 'react'
 import {ctxGithub} from './contexts/github-contexts'
+import { Projects } from './components/Projects'
 export const App = () => {
   const [githubStats, setGithubStats] = useState({})
   useEffect(() => {
@@ -45,6 +46,7 @@ export const App = () => {
             <Stats />
             <Trajectory />
             <AboutMe />
+            <Projects />
             <Certificates />
             <MyStacksHeader />
             <MyStacksContent />

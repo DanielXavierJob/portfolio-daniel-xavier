@@ -46,7 +46,63 @@ export const steps = [
       "Every time I used my faith, that I would make it, that I would be ready for the moment",
   },
 ];
-
+export const projects = [
+  {
+    img: 'https://i.imgur.com/stZaXXb.png',
+    title: 'Shadow dog JS',
+    desc: "Project where I use frames to create animations"
+  },
+  {
+    img: 'https://i.imgur.com/jwWqIRA.png',
+    title: 'Mario run Game',
+    desc: "Any game of running with Mario and jumping over obstacles"
+  },
+  {
+    img: 'https://i.imgur.com/TpneZh5.png',
+    title: 'Point Blank Project',
+    desc: 'Point blank project made in react'
+  },
+  {
+    img: 'https://i.imgur.com/l9kvqqp.png',
+    title: 'Motive me',
+    desc: 'A website with motivational phrases'
+  },
+  {
+    img: 'https://i.imgur.com/yEHQy4F.png',
+    title: 'Youtube Clone',
+    desc: 'A youtube clone made in react'
+  },
+  {
+    img: 'https://i.imgur.com/eAHYhMV.png',
+    title: 'NLW Card Dev',
+    desc: 'card creator with information about the area of ​​activity'
+  },
+  {
+    img: 'https://i.imgur.com/tZsm5XX.png',
+    title: "Game memory",
+    desc: "A game to memorize the cards of Rick and Morty"
+  },
+  {
+    img: 'https://i.imgur.com/BgEZWbM.png',
+    title: "Snack game",
+    desc: "Run to eat apples"
+  },
+  {
+    img: 'https://i.imgur.com/MAP2Wum.png',
+    title: "Room stock",
+    desc: "Store your products and get results"
+  },
+  {
+    img: 'https://i.imgur.com/Ouso9yQ.png',
+    title: 'Control volume with hands',
+    desc: "Project in python to control volume"
+  },
+  {
+    img: 'https://i.imgur.com/hzLs34y.jpg',
+    title: 'DEVTOPMIX',
+    desc: "Project to managers"
+  }
+]
 export const certificates = [
   "atendimento",
   "csharpavancado",
