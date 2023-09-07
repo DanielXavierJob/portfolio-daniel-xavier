@@ -42,7 +42,7 @@ export const Home = () => {
         </div>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With only {new Date().getFullYear() - 2002} years old, he has 15
+          With only {new Date().getFullYear() - 2002} years old, he has 18+
           certificates of completion of programming courses, one of which is
           participation in havard, with {new Date().getFullYear() - 2015} years
           of experience a full stack developer
